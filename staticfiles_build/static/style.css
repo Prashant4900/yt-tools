@@ -1,35 +1,5 @@
-/* NavBar Style */
-/* nav {
-    background-color: #16213E;
-    padding: 10px;
-    padding-top: 0px;
-}
-
-.brand-logo {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-nav .brand-logo {
-    color: #E94560;
-} */
-
-.navbar-light .navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
-    color: #E94560;
-}
-
-/* Body Style */
-body {
-    background-color: #F1FAEE;
-    display: flex;
-    /* min-height: 100vh; */
-    flex-direction: column;
-}
-
 /* Footer Style */
-.page-footer {
+footer {
     background-color: #16213E;
     opacity: 0.9;
     padding: 10px;
@@ -38,21 +8,4 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-}
-
-/* Form */
-/* input[type=text], input[type=password] {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-} */
-
-#text-area {
-    background-color: aqua;
-    width: 70%;
-    padding: 12px 20px;
-    text-align: center;
 }
