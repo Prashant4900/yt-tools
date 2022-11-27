@@ -1,8 +1,8 @@
 /* NavBar Style */
-nav {
+/* nav {
     background-color: #16213E;
     padding: 10px;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 .brand-logo {
@@ -11,6 +11,12 @@ nav {
 }
 
 nav .brand-logo {
+    color: #E94560;
+} */
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
     color: #E94560;
 }
 

@@ -1,3 +1,20 @@
-<div id="text-area" class="col">
-  <form class="col" action="" method="POST">{% csrf_token %} {{form }}</form>
+<div class="row">
+  <div class="col-md-12">
+    <form method="POST">
+      {% csrf_token %}
+      <div class="input-group">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="https://www.youtube.com/watch?v=..."
+          name="search"
+        />
+        <span class="input-group-btn">
+          <button class="btn btn-secondary mx-3 bg-info" type="button">
+            Go!
+          </button>
+        </span>
+      </div>
+    </form>
+  </div>
 </div>

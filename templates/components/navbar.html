@@ -1,21 +1,21 @@
-<nav>
-  <div class="nav-wrapper">
-    <a href="{% url 'dashboard' %}" class="brand-logo">YT Tools</a>
-    <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-      ><i class="material-icons">menu</i></a
+{% load static %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold text-danger" href="http://127.0.0.1:8000/"
+      >Youtube Search</a
     >
-    <ul class="right hide-on-med-and-down">
-      <li><a href="sass.html">Dashboard</a></li>
-      <li><a href="badges.html">Length</a></li>
-      <li><a href="collapsible.html">Video</a></li>
-      <li><a href="https://github.com/Prashant4900/yt-tools" target="_blank">GitHub</a></li>
-    </ul>
+    <form class="d-flex">
+      <a href="{% url 'dashboard' %}" class="nav-link text-white"
+        >Dashboard</a
+      >
+      <a href="{% url 'dashboard' %}" class="nav-link text-white">Video</a>
+      <a
+        href="https://github.com/Prashant4900/yt-tools"
+        target="_blank"
+        class="nav-link text-white"
+        >GitHub</a
+      >
+    </form>
   </div>
 </nav>
-
-<ul class="sidenav" id="mobile-demo">
-  <li><a href="{% url 'dashboard' %}">Dashboard</a></li>
-  <li><a href="badges.html">Length</a></li>
-  <li><a href="collapsible.html">Video</a></li>
-  <li><a href="https://github.com/Prashant4900/yt-tools" target="_blank">GitHub</a></li>
-</ul>
